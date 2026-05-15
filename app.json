@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "사랑의 지도",
+    "slug": "lovemap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF0F3"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.lovemap.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFF0F3"
+      },
+      "package": "com.lovemap.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#FF6B9D"
+        }
+      ]
+    ]
+  }
+}
